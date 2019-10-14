@@ -1,0 +1,13 @@
+button {
+    @include border-radius;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.loading{
+    background:url("../assets/loading.gif") no-repeat center;
+    width:100%;
+    height:2rem;
+}
